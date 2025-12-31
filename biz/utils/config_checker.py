@@ -7,7 +7,7 @@ from biz.utils.log import logger
 
 # 指定环境变量文件路径
 ENV_FILE_PATH = "conf/.env"
-load_dotenv(ENV_FILE_PATH)
+load_dotenv(dotenv_path=ENV_FILE_PATH)
 
 
 REQUIRED_ENV_VARS = [
